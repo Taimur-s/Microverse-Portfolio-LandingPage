@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#container {
+    font-family: "Roboto";
+    background-color: #5e524f;
+}
+
+#navbar {
+    background-color: #ba4530;
+    color: #000000;
+    display: flex;
+    justify-content: flex-end;
+    height: 10vh;
+    align-items: center;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: white;
+    margin-right: 18px;
+    font-size: 24px;
+    padding: 24px;
+    margin: 10px;
+    margin-top: 18px;
+
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5e524f;
+}
+
+.head-style {
+    color: #ffffff;
+}
+
+.para-style {
+    color: red;
+}
+
+#projects {
+    background-color: #5480c7;
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.head-style {
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+
+
+}
+
+.card-subcontainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+
+}
+
+.card {
+    height: 300px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    ;
+    background-color: #5e524f;
+
+    background-size: cover;
+    margin: 10px;
+
+
+}
+
+.img-style {
+    height: 250px;
+    width: 100%
+}
+
+.titlecontainer {
+    background-color: #00FF00;
+}
+
+.projectTr {
+    font-size: 18px;
+    align-self: flex-end;
+    width: 100%;
+    text-align: center;
+
+}
+
+.button {
+    background-color: #5e524f;
+    border-style: none;
+    color: white;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+#footer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.contact {
+    display: flex;
+    font-size: 8px;
+}
+
+.icon-style {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+#final-section {
+    display: flex;
+}
+
+hr {
+
+    width: 100%;
+    color: #ba4530 !important;
+}
+
+.head-style1 {
+    font-size: 15px;
+}
+
+.para-style1 {
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
