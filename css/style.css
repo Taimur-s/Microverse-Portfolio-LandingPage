@@ -38,7 +38,7 @@ body {
     background-color: #5e524f;
 }
 
-.head-style {
+.project-tile {
     color: #ffffff;
 }
 
@@ -153,3 +153,9 @@ hr {
     margin-top: 15px;
     margin-left: 15px;
 }
+@media only screen and (max-width: 100%) {
+    body {
+      font-size: 28px;
+    }
+  }
+  
